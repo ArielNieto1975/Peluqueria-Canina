@@ -134,7 +134,7 @@ footer{
   color: #ffffff;
   font-size: 16px;
   margin: 20px;
-  padding-left: 60px;
+  /* padding-left: 60px; */
 
 }
 .copyright a{
@@ -148,6 +148,31 @@ footer{
   border-radius: 50px; 
 }
 
+/* contactos page */
+.anima {
+  background-color: #FfFFFF;
+  width: 90vw;
+  height: 50px;
+  border: 1px solid;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+.anima__p1{
+  animation-duration: 5s;
+  animation-name: correr;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes correr {
+  0% {
+    margin-left: -50%;   
+  }
+
+  100% {
+    margin-left: 96%;    
+  }
+}
 
 
 
